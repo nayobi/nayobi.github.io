@@ -223,6 +223,16 @@
 	--vspace-9    : calc(9 * var(--space));
 	--vspace-9_5    : calc(9.5 * var(--space));
 	--vspace-10    : calc(10 * var(--space));
+    --vspace-10_5    : calc(10.5 * var(--space));
+    --vspace-11    : calc(11 * var(--space));
+    --vspace-11_5    : calc(11.5 * var(--space));
+    --vspace-12    : calc(12 * var(--space));
+    --vspace-12_5    : calc(12.5 * var(--space));
+    --vspace-13    : calc(13 * var(--space));
+    --vspace-13_5    : calc(13.5 * var(--space));
+    --vspace-14    : calc(14 * var(--space));
+    --vspace-14_5    : calc(14.5 * var(--space));
+    --vspace-15    : calc(15 * var(--space));
 
     /* type scale
      * ratio 1:2 | base: 18px
@@ -4025,6 +4035,8 @@ input[type="button"].btn--primary:focus {
 .folio-list {
     max-width: 1180px;
     margin-top: var(--vspace-2_5);
+    text-align: center;
+    font-size: calc(var(--text-size) * 1.3);
 }
 
 .folio-item__thumb {
@@ -4032,6 +4044,7 @@ input[type="button"].btn--primary:focus {
     background-color: white;
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .folio-item__thumb::before {
@@ -4050,6 +4063,7 @@ input[type="button"].btn--primary:focus {
     height: 100%;
     -webkit-transition: all, .5s;
     transition: all, .5s;
+    text-align: center;
 }
 
 .folio-item__thumb::after {
@@ -4075,6 +4089,7 @@ input[type="button"].btn--primary:focus {
     position: absolute;
     left: 50%;
     top: 50%;
+    text-align: center;
 }
 
 .folio-item img {
@@ -4083,6 +4098,10 @@ input[type="button"].btn--primary:focus {
     -webkit-transition: all, .5s;
     transition: all, .5s;
 }
+
+/**.folio-item tut {
+    text-align: center;
+}*/
 
 /* on hover
  *---------------------------------------------- */
@@ -4109,14 +4128,14 @@ input[type="button"].btn--primary:focus {
 .modal-popup {
     max-width: 680px;
     background-color: white;
-    font-size: calc(var(--text-size) * 0.9444);
+    font-size: calc(var(--text-size) *0.7); /** 0.9444);*/
     line-height: 1.647;
     overflow-y: auto;
     position: relative;
 }
 
 .modal-popup img {
-    margin-bottom: var(--vspace-0_5);
+    margin-bottom: var(--vspace-0_125);
 }
 
 .modal-popup h5 {
@@ -4365,16 +4384,15 @@ input[type="button"].btn--primary:focus {
     display: inline-block;
     min-height: var(--vspace-2);
     margin-bottom: var(--vspace-0_5);
-    padding-left: 8.8rem;
     position: relative;
 }
 
 .testimonial-slider__avatar {
-    width: var(--vspace-2);
-    height: var(--vspace-2);
-    border-radius: 100%;
+    width: var(--vspace-15);
+    height: var(--vspace-8);
+    border-radius: 0%;
     outline: none;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
 }
