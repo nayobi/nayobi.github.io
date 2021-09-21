@@ -3939,7 +3939,7 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-resume {
     background-color: white;
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(2 * var(--space));
     padding-bottom: var(--vspace-4);
 }
 
@@ -3966,6 +3966,21 @@ input[type="button"].btn--primary:focus {
     line-height: 1.080;
     margin-top: 0;
     margin-bottom: var(--vspace-0_25);
+}
+
+
+.resume-block h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: var(--vspace-1);
+    font-size: medium;
+    font-weight: 100;
+}
+
+.resume-block h2 {
+    font-weight: 500;
+    font-size: medium;
+    line-height: var(--vspace-2);
 }
 
 .resume-block__header-meta {
@@ -4135,6 +4150,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .modal-popup img {
+    padding-top: 5rem;
     margin-bottom: var(--vspace-0_125);
 }
 
@@ -4143,7 +4159,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .modal-popup__desc {
-    padding: 0 4rem 1.2rem;
+    padding: 0 2rem 1.2rem;
 }
 
 .modal-popup__cat {
@@ -4376,6 +4392,12 @@ input[type="button"].btn--primary:focus {
     line-height: var(--vspace-1);
 }
 
+.testimonial-slider span {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: var(--vspace-2);
+}
+
 .testimonial-slider__slide {
     position: relative;
 }
@@ -4389,7 +4411,7 @@ input[type="button"].btn--primary:focus {
 
 .testimonial-slider__avatar {
     width: var(--vspace-15);
-    height: var(--vspace-8);
+    height: var(--vspace-10);
     border-radius: 0%;
     outline: none;
     position: relative;
