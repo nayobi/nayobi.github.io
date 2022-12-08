@@ -167,27 +167,31 @@
     ================================================== -->
     <section id="portfolio" class="s-portfolio target-section">
 
-        <div class="row s-portfolio__header">
+        <div style="margin-bottom: -7%;" class="row s-portfolio__header">
             <div class="column large-12">
                 <h3><!--/NOTHING READY AFTER THIS PART/-->
                 Publications</h3>
             </div>
         </div>
 
-        <div class="row block-large-1-2 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
+        <div style="margin-bottom: -7%;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-01" target="_blank" rel="noopener noreferrer" class="folio-item__thumb">
+                <a href="#modal-01" style="margin-right: -20%;" class="folio-item__thumb">
                     <img src="images/PNG.gif" 
                          srcset="images/PNG.gif 1x, 
-                                 images/PNG.gif 2x" alt="">
+                                 images/PNG.gif 2x" 
+                         alt=""
+                         style="padding-top: 3%; padding-bottom: 3%;"
+                                 >
                 </a>
             </div> <!-- end folio-item -->
 
             <div class="column">
-                <p style="margin-left: -4rem"> <strong>Panoptic Narrative Grounding.</strong> <em>Cristina González, <u>Nicolás Ayobi</u>, Isabela Hernández,
-                    José Hernández, Jordi Pont-Tuset, Pablo Arbeláez.</em> Oral Presentation in the International Conference of Computer Vision (ICCV) 2021. <br>
-
+                <p style="margin-right: -250%; text-align: justify;"> 
+                    <strong>Panoptic Narrative Grounding.</strong> Cristina González, <u>Nicolás Ayobi</u>, Isabela Hernández,
+                    José Hernández, Jordi Pont-Tuset, Pablo Arbeláez. <em>Oral Presentation in the International Conference of Computer Vision (ICCV) 2021.</em><br>
+                    
                     <a href="https://bcv-uniandes.github.io/panoptic-narrative-grounding/" target="_blank" rel="noopener noreferrer">[Project Page]</a>
                     <a href="https://arxiv.org/abs/2109.04988" target="_blank" rel="noopener noreferrer">[Paper]</a>
                     <a href="https://bcv-uniandes.github.io/panoptic-narrative-grounding/" target="_blank" rel="noopener noreferrer">[Code]</a>
@@ -204,7 +208,7 @@
         
                     <div class="modal-popup__desc">
                         <!--h5>Panoptic Narrative Grounding</h5-->
-                        <p>This paper proposes Panoptic Narrative Grounding, a spatially fine and general 
+                        <p style="text-align: justify">This paper proposes Panoptic Narrative Grounding, a spatially fine and general 
                             formulation of the natural language visual grounding problem. We establish an 
                             experimental framework for the study of this new task, including new ground 
                             truth and metrics, and we propose a strong baseline method to serve as stepping 
@@ -220,8 +224,8 @@
                             result is a suitable foundation to push the envelope further in the development 
                             of methods for Panoptic Narrative Grounding.</p>
                         <ul class="modal-popup__cat">
-                            <li>Oral Presentation</li>
-                            <li>International Conference of Computer Vision (ICCV) 2021</li>
+                            <li>Oral</li>
+                            <li>ICCV 2021</li>
                         </ul>
                     </div>
         
@@ -232,11 +236,10 @@
             
         </div>
 
-        <div class="row block-large-1-2 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
-
+        <div style="margin-bottom: -7%;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-02" class="folio-item__thumb">
+                <a href="#modal-02" style="margin-right: -20%;" class="folio-item__thumb">
                     <img src="images/TAPIR.jpg" 
                          srcset="images/TAPIR.jpg 1x, 
                                  images/TAPIR.jpg 2x" alt="">
@@ -244,9 +247,9 @@
             </div> <!-- end folio-item -->
 
             <div class="column">
-                <p style="margin-left: -4rem">
-                    <strong>Towards Holistic Surgical Scene Understanding.</strong> <em>Natalia Valderrama, Paola Ruíz, Isabela Hernández, <u>Nicolás Ayobi</u>, Mathilde Verlyk, Jessica Santander, Juan Caicedo, Nicolás Fernández, Pablo Arbeláez.</em> Oral Presentation at the International Conference on Medican Image Computing and Computer Assisted Interventions (MICCAI) 2022. Nominated to best paper award.<br>
-
+                <p style="margin-right: -250%; text-align: justify;">
+                    <strong>Towards Holistic Surgical Scene Understanding.</strong> Natalia Valderrama, Paola Ruíz, Isabela Hernández, <u>Nicolás Ayobi</u>, Mathilde Verlyk, Jessica Santander, Juan Caicedo, Nicolás Fernández, Pablo Arbeláez. <em>Oral Presentation at the International Conference on Medican Image Computing and Computer Assisted Interventions (MICCAI) 2022. Nominated to best paper award.</em><br>
+                    
                     <a href="https://cinfonia.uniandes.edu.co/publications/towards-holistic-surgical-scene-understanding/">[Project Page]</a>
                     <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_42">[Paper]</a>
                     <a href="https://github.com/BCV-Uniandes/TAPIR">[Code]</a>
@@ -261,23 +264,13 @@
                     
                     <div class="modal-popup__desc">
                         <!--h5>Towards Holistic Surgical Scene Understanding</h5-->
-                        <p>Most benchmarks for studying surgical interventions focus on a specific challenge 
-                            instead of leveraging the intrinsic complementarity among different tasks. In this work, 
-                            we present a new experimental framework towards holistic surgical scene understanding. 
-                            First, we introduce the Phase, Step, Instrument, and Atomic Visual Action recognition 
-                            (PSIAVA) Dataset. PSI-AVA includes annotations for both long-term (Phase and Step 
-                            recognition) and short-term reasoning (Instrument detection and novel Atomic Action 
-                            recognition) in robot-assisted radical prostatectomy videos. Second, we present 
-                            Transformers for Action, Phase, Instrument, and steps Recognition (TAPIR) as a strong 
-                            baseline for surgical scene understanding. TAPIR leverages our dataset’s multi-level 
-                            annotations as it benefits from the learned representation on the instrument detection 
-                            task to improve its classification capacity. Our experimental results in both PSI-AVA 
-                            and other publicly available databases demonstrate the adequacy of our framework to spur 
-                            future research on holistic surgical scene understanding.</p>
-                            <ul class="modal-popup__cat">
-                                <li>Oral Presentation</li>
-                                <li>International Conference on Medican Image Computing and Computer Assisted Interventions (MICCAI) 2022</li>
-                            </ul>
+                        <p style="text-align: justify">
+                            Most benchmarks for studying surgical interventions focus on a specific challenge instead of leveraging the intrinsic complementarity among different tasks. In this work, we present a new experimental framework towards holistic surgical scene understanding. First, we introduce the Phase, Step, Instrument, and Atomic Visual Action recognition (PSIAVA) Dataset. PSI-AVA includes annotations for both long-term (Phase and Step recognition) and short-term reasoning (Instrument detection and novel Atomic Action recognition) in robot-assisted radical prostatectomy videos. Second, we present Transformers for Action, Phase, Instrument, and steps Recognition (TAPIR) as a strong baseline for surgical scene understanding. TAPIR leverages our dataset’s multi-level annotations as it benefits from the learned representation on the instrument detection task to improve its classification capacity. Our experimental results in both PSI-AVA and other publicly available databases demonstrate the adequacy of our framework to spur future research on holistic surgical scene understanding.
+                        </p>
+                        <ul class="modal-popup__cat">
+                            <li>Oral</li>
+                            <li>MICCAI 2022</li>
+                        </ul>
                         </div>
             
                         <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_42" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Paper Link</a>
@@ -285,11 +278,10 @@
             </div> <!-- end modal -->
         </div>
 
-        <div class="row block-large-1-2 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
-
+        <div style="margin-bottom: -7%;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-02" class="folio-item__thumb">
+                <a href="#modal-03" style="margin-right: -20%;" class="folio-item__thumb">
                     <img src="images/Javier.png" 
                          srcset="images/Javier.png 1x, 
                                  images/Javier.png 2x" alt="">
@@ -297,40 +289,25 @@
             </div> <!-- end folio-item -->
 
             <div class="column">
-                <p style="margin-left: -4rem">
-                    <strong>Development of a Movil App for the Preoperative Evaluation of Sinus CT Scan: One Step Towards Artificial Intelligence.</strong> <em>Javier Ospina, Cristhian Forigua, Andrés Hernández, <u>Nicolás Ayobi</u>, Tomás Correa, Augusto Peñaranda, Arif Janjua.</em> Oral presentation in Acta de Otorrinolaringología y Cirugía de Cabeza y Cuello.<br>
-
+                <p style="margin-right: -250%; text-align: justify;">
+                    <strong>Development of a Movil App for the Preoperative Evaluation of Sinus CT Scan: One Step Towards Artificial Intelligence.</strong> Javier Ospina, Cristhian Forigua, Andrés Hernández, <u>Nicolás Ayobi</u>, Tomás Correa, Augusto Peñaranda, Arif Janjua. <em>Oral presentation in Acta de Otorrinolaringología y Cirugía de Cabeza y Cuello 2022</em>.<br>
+                    
                     <a href="https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=107230">[Paper]</a>
-                </p>. 
+                </p> 
             </div> <!-- end folio-item -->
 
-            <div id="modal-02" hidden>
+            <div id="modal-03" hidden>
                 <div class="modal-popup">
                     <img src="images/Javier.png" alt="" />
                     
                     <div class="modal-popup__desc">
                         <!--h5>Towards Holistic Surgical Scene Understanding</h5-->
-                        <p>The recent technology revolution that we have experienced has generated extensive interest 
-                            in the use of artificial intelligence (AI) in the development
-                            of various systems and solutions in medicine. In the field of Otorhinolaryngology,
-                            we are seeing the first efforts to take advantage of this flourishing area. Objective:
-                            We sought to describe the development process of a mobile app created through a
-                            collaborative effort between ENT surgeons and biomedical engineers. This app has
-                            the intention to optimize the preoperative evaluation of paranasal sinus tomography
-                            (CT) to improve safety and outcomes in Endoscopic Sinus Surgery (ESS). Methods:
-                            The development of the app followed the prioritization method for MoSCoW specifications. 
-                            We used the information collected from surveys of 29 Rhinology experts
-                            from different parts of the world, who evaluated anatomical variants on sinus CT
-                            scans. Two regression models were used to predict difficulty and risk using statistical
-                            learning. Conclusion: Via statistical modelling, we have developed a user-friendly
-                            tool that will ideally help surgeons assess the risk and difficulty of ESS based on
-                            the pre-operative CT scan of the sinuses. This is an exercise that demonstrates the
-                            efficacy of the collaborative efforts between surgeons and engineers to leverage AI
-                            tools and promote better solutions for our patients.</p>
-                            <!--ul class="modal-popup__cat">
-                                <li>MICCAI 2022</li>
-                                <li>Oral Presentation</li>
-                            </ul-->
+                        <p style="text-align: justify">
+                            The recent technology revolution that we have experienced has generated extensive interest in the use of artificial intelligence (AI) in the development of various systems and solutions in medicine. In the field of Otorhinolaryngology, we are seeing the first efforts to take advantage of this flourishing area. Objective: We sought to describe the development process of a mobile app created through a collaborative effort between ENT surgeons and biomedical engineers. This app has the intention to optimize the preoperative evaluation of paranasal sinus tomography (CT) to improve safety and outcomes in Endoscopic Sinus Surgery (ESS). Methods: The development of the app followed the prioritization method for MoSCoW specifications. We used the information collected from surveys of 29 Rhinology experts from different parts of the world, who evaluated anatomical variants on sinus CT scans. Two regression models were used to predict difficulty and risk using statistical learning. Conclusion: Via statistical modelling, we have developed a user-friendly tool that will ideally help surgeons assess the risk and difficulty of ESS based on the pre-operative CT scan of the sinuses. This is an exercise that demonstrates the efficacy of the collaborative efforts between surgeons and engineers to leverage AI tools and promote better solutions for our patients.</p>
+                            <ul class="modal-popup__cat">
+                                <li>Oral</li>
+                                <li>Acta de Otorrinolaringología y Cirugía de Cabeza y Cuello 2022</li>
+                            </ul>
                         </div>
             
                         <a href="https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=107230" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Paper Link</a>
@@ -349,6 +326,7 @@
                 <h3 class="section-header-allcaps">Experience</h3>
             </div>
             <div class="column large-9 tab-12">
+                <h6>Research Experience<hr style="margin-top: 0%; margin-bottom: 5%;"></h6>
                 <div class="resume-block">
 
                     <div class="resume-block__header">
@@ -361,39 +339,7 @@
                         </p>
                     </div>
 
-                    <!-- <p>
-                    CinofnIA is the leading research center in artificial intelligence in Latin America.
-                    Here I Work on multiple computer vision projects on natural and medical images. Implement 
-                    state-of-the-art deep learning techniques and present results weekly. I process and analyze 
-                    data gathered from different sources. Check the research section for more detail. 
-                    </p> -->
-
                 </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Graduate Teaching Assitant in Computer Vision</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Universidad de los Andes (Bogotá, Colombia)</span> 
-                            <span class="resume-block__header-date">
-                                January 2022 - September 2022
-                            </span>
-                        </p>
-                        <p>
-                            <span class="resume-block__header-utadate">
-                            </span> Also collaborated in creating Coursera's Master's Degree in AI by University of Los Andes <br>
-                        </p>
-                    </div>
-
-                    <!-- <p>
-                    I was a graduate teaching assistant in my university's computer vision class. Here I proposed and 
-                    evaluated laboratory assignments about different computer vision models and tasks. I Formulated 
-                    and graded theoretical and practical exams. I assisted students with their research projects for 
-                    the course. However, I also collaborated in the creation of Coursera's Master's Degree in AI.
-                    </p> -->
-
-                </div>
 
                 <div class="resume-block">
 
@@ -408,6 +354,41 @@
                     </div>
 
                 </div> <!-- end resume-block -->
+
+                <h6 style="margin-top: 5rem;">Teaching Experience<hr style="margin-top: 0%; margin-bottom: 5%;"></h6>
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Graduate Teaching Assitant in Computer Vision</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Universidad de los Andes (Bogotá, Colombia)</span> 
+                            <span class="resume-block__header-date">
+                                January 2022 - September 2022
+                            </span>
+                        </p>
+                        <!-- <p>
+                            <span class="resume-block__header-utadate">
+                            </span> Also collaborated in creating Coursera's Master's Degree in AI by University of Los Andes <br>
+                        </p> -->
+                    </div>
+
+                </div>
+
+                <div class="resume-block">
+
+                    <div class="resume-block__header">
+                        <h4 class="h3">Graduate Assistant in Coursera's Master's Degree in AI by Uniandes</h4>
+                        <p class="resume-block__header-meta">
+                            <span>Universidad de los Andes (Bogotá, Colombia)</span> 
+                            <span class="resume-block__header-date">
+                                December 2021 - September 2022
+                            </span>
+                        </p>
+
+                    </div>
+
+                </div>
 
                 <div class="resume-block">
 
@@ -442,10 +423,6 @@
 					<span class="resume-block__header-utadate">
                                 January 2020 - June 2020
                             </span> ~ Biomedical Engineering Foundations for Neurosurgery <br>
-					
-					<!-- Generally, I assisted students during their learning process, created different 
-                    workshops and practicall activities, colaborated with the teacher to modify 
-                    the courses' contents and evaluated student projects and lab practices. -->
                     </p>
 
                 </div> <!-- end resume-block -->

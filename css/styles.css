@@ -1673,8 +1673,8 @@ h2, .h2, h3, .h3, h4, .h4 {
 }
 
 h5, .h5, h6, .h6 {
-    margin-top: var(--vspace-1_5);
-    margin-bottom: var(--vspace-0_5);
+    margin-top: var(--vspace-0_025);
+    margin-bottom: var(--vspace-0_0);
 }
 
 h1, .h1 {
@@ -1715,8 +1715,9 @@ h6, .h6 {
     font-size: var(--text-sm);
     font-weight: 700;
     line-height: var(--vspace-0_75);
-    text-transform: uppercase;
-    letter-spacing: .2em;
+    color: var(--color-gray-10);
+    /* text-transform: uppercase; */
+    /* letter-spacing: .2em; */
 }
 
 .lead, .attention-getter {
@@ -3943,6 +3944,8 @@ input[type="button"].btn--primary:focus {
     background-color: white;
     padding-top: calc(3 * var(--space));
     padding-bottom: var(--vspace-4);
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .s-resume__section {
@@ -4057,8 +4060,10 @@ input[type="button"].btn--primary:focus {
  * ------------------------------------------------------------------- */
 .s-portfolio {
     background-color: var(--color-gray-1);
-    padding-top: calc(4 * var(--space));
+    padding-top: calc(3 * var(--space));
     padding-bottom: var(--vspace-5);
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .s-portfolio h3 {
@@ -4077,8 +4082,8 @@ input[type="button"].btn--primary:focus {
     margin-top: var(--vspace-2_5);
     /* margin-left: 0rem; */
     text-align: left;
-    font-size: calc(var(--text-size) * 1);
-    line-height: calc(var(--text-size) * 1.25);
+    font-size: calc(var(--text-size) * 0.75);
+    line-height: calc(var(--text-size) * 1);
 }
 
 .folio-item__thumb {
@@ -4139,6 +4144,10 @@ input[type="button"].btn--primary:focus {
     margin: 0;
     -webkit-transition: all, .5s;
     transition: all, .5s;
+    /* padding-right: 20%;
+    background-color: var(--color-gray-1); */
+    /* margin-right: 10%; */
+    /* max-width: 80%; */
 }
 
 .folio-item h4 {
