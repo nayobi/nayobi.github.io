@@ -1285,10 +1285,17 @@ input[type="password"], textarea {
 }
 
 .block-large-1-4>.column {
-    -ms-flex: 0 0 25%;
+    -ms-flex: 0 0 30%;
     -webkit-box-flex: 0;
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.block-large-1-4>.column2 {
+    -ms-flex: 0 0 70%;
+    -webkit-box-flex: 0;
+    flex: 0 0 70%;
+    max-width: 70%;
 }
 
 .block-large-1-3>.column {
