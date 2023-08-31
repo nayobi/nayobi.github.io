@@ -81,10 +81,10 @@
 
                     <h1>Nicolás Ayobi Mendoza</h1>
 
-                    <h3 style="text-align: left">
+                    <h3 style="text-align: center">
                         <span>Research Assistant in Computer Vision</span> at CinfonIA <br>
-                        <span>MSc student in Biomedical Engineering</span> <br>
-                        <span>Biomedical Engineer</span> with a double minor in <span>Computational Mathematics</span> and in <span>Bioinformatics</span>
+                        <span>M.Sc. student in Biomedical Engineering</span> at University of Los Andes <br>
+                        <span>Biomedical Engineer</span><!-- with a double minor in <span>Computational Mathematics</span> and in <span>Bioinformatics</span>-->
                     </h3>
 
                     <div class="s-hero__content-social">
@@ -105,7 +105,7 @@
         </div> <!-- s-hero__content -->
 
         <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll" target="_blank" rel="noopener noreferrer">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
                 <span class="scroll-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
                 </span>
@@ -127,7 +127,7 @@
             <div class="column large-9 tab-12 s-about__content">
                 <h3>About Me</h3>
                 <p style="text-align: justify;">
-                    I am a master's student in biomedical engineering at the <a href="https://uniandes.edu.co/" target="_blank" rel="noopener noreferrer">University of los Andes</a> in Bogota, Colombia. I received my Bachelor's degree in biomédical engineering with a double minor in Bioinformatics and Computational Mathematics. Additionally, I work as a graduate research assistant in computer vision at my university's <a href="https://cinfonia.uniandes.edu.co/" target="_blank" rel="noopener noreferrer">CinfonIA research center</a> under <a href="https://scholar.google.com/citations?user=k0nZO90AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Pablo Arbeláez's</a> supervision. I've worked on several research projects focused on deep learning and computer vision for medical and natural images. My main research interests are video analysis, biomedical image processing, and vision & language. 
+                    I am a master's student in biomedical engineering at the <a href="https://uniandes.edu.co/" target="_blank" rel="noopener noreferrer">University of los Andes</a> in Bogota, Colombia. I received my Bachelor's degree in biomédical engineering with a double minor in Bioinformatics and Computational Mathematics. Additionally, I work as a graduate research assistant in computer vision at my university's <a href="https://cinfonia.uniandes.edu.co/" target="_blank" rel="noopener noreferrer">CinfonIA research center</a> under <a href="https://scholar.google.com/citations?user=k0nZO90AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Pablo Arbeláez's</a> supervision. I've worked on several research projects focused on deep learning and computer vision for medical and natural images. My main research interests are image-guided surgical robot intelligence, video analysis, biomedical image processing, and vision & language. 
                 <!-- I am a first-year biomedical engineering master's student. I just finished my Bachelor's studies in biomédical engineering as well, with a double minor in Bioinformatics and Computational Mathematics. Additionally, I work as a graduate research assistant at the <a href="https://cinfonia.uniandes.edu.co/" target="_blank" rel="noopener noreferrer">CinfonIA research center</a> of the University of los Andes in several projects focused on computer vision. My goal is to achieve a Ph.D. in the future to develop my research on machine vision applications in medicine fully. I aim to someday work in an extensive research center of applied artificial intelligence for biomedical image analysis in the far future. -->
 				<!--I am a senior year biomedical engineering student at the Universidad de los Andes
 				in Bogotá, Colombia. I've already finished a minor in Bioinformatics and I'm currently finishing 
@@ -183,6 +183,176 @@
 
             <div class="column folio-item">
                 <a href="#modal-01" class="folio-item__thumb">
+                    <img src="images/Bechmark_figure.png" 
+                         srcset="images/Bechmark_figure.png 1x, 
+                                 images/Bechmark_figure.png 2x" 
+                         alt=""
+                         style="padding-top: 3%; padding-bottom: 3%;"
+                                 >
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column2">
+                <p style="text-align: justify;"> 
+                    <strong>STRIDE: Street View-based Environmental Feature Detection and Pedestrian Collision Prediction.</strong> Cristina González*, <u>Nicolás Ayobi*</u>, Felipe Escallón, Laura Baldovino-Chiquillo, Maria Wilches-Mogollón, Donny Pasos, Nicole Ramírez, Jose Pinzón, Olga Sarmiento, D. Alex Quistberg, Pablo Arbeláez. <em>ROAD++: The Second Workshop & Challenge on Event Detection for Situation Awareness in Autonomous Driving. Hosted at the International Conference of Computer Vision (ICCV) 2023.</em><br>
+                    
+                    <a href="https://arxiv.org/abs/2308.13183" target="_blank" rel="noopener noreferrer">[Paper]</a>
+                    <a href="https://github.com/BCV-Uniandes/STRIDE" target="_blank" rel="noopener noreferrer">[Code]</a>
+                    <a href="https://github.com/BCV-Uniandes/STRIDE" target="_blank" rel="noopener noreferrer">[Data]</a>
+                </p>
+            </div> <!-- end folio-item -->
+
+
+            <!-- Modal Templates Popup
+            =========================================================== -->
+            <div id="modal-01" hidden>
+                <div class="modal-popup">
+                    <img src="images/Bechmark_figure.png" alt="" />
+        
+                    <div class="modal-popup__desc">
+                        <!--h5>Panoptic Narrative Grounding</h5-->
+                        <p style="text-align: justify">This paper introduces a novel benchmark to study the impact and relationship of built environment elements on pedestrian collision prediction, intending to enhance environmental awareness in autonomous driving systems to prevent pedestrian injuries actively. We introduce a built environment detection task in large-scale panoramic images and a detection-based pedestrian collision frequency prediction task. We propose a baseline method that incorporates a collision prediction module into a state-of-the-art detection model to tackle both tasks simultaneously. Our experiments demonstrate a significant correlation between object detection of built environment elements and pedestrian collision frequency prediction. Our results are a stepping stone towards understanding the interdependencies between built environment conditions and pedestrian safety.</p>
+                        <ul class="modal-popup__cat">
+                            <li>Poster</li>
+                            <li>ICCVW 2023</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://bcv-uniandes.github.io/panoptic-narrative-grounding/" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Project Page</a>
+                </div>
+            </div> <!-- end modal -->
+        </div>
+
+        <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-02" class="folio-item__thumb">
+                    <img src="images/PiGLET.png" 
+                         srcset="images/PiGLET.png 1x, 
+                                 images/PiGLET.png 2x" 
+                         alt=""
+                         style="padding-top: 3%; padding-bottom: 3%;"
+                                 >
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column2">
+                <p style="text-align: justify;"> 
+                    <strong>PiGLET: Pixel-level Grounding of Language Expressions with Transformers.</strong> Cristina González, <u>Nicolás Ayobi</u>, Isabela Hernández, Jordi Pont-Tuset, Pablo Arbeláez. <em>IEEE Transactions on Pattern Analysis and Machine Intelligence 2023.</em><br>
+                    
+                    <a href="https://bcv-uniandes.github.io/panoptic-narrative-grounding/" target="_blank" rel="noopener noreferrer">[Project Page]</a>
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10158238" target="_blank" rel="noopener noreferrer">[Paper]</a>
+                    <a href="https://bcv-uniandes.github.io/panoptic-narrative-grounding/" target="_blank" rel="noopener noreferrer">[Code]</a>
+                    <a href="https://bcv-uniandes.github.io/panoptic-narrative-grounding/#downloads" target="_blank" rel="noopener noreferrer">[Data]</a>
+                </p>
+            </div> <!-- end folio-item -->
+
+
+            <!-- Modal Templates Popup
+            =========================================================== -->
+            <div id="modal-02" hidden>
+                <div class="modal-popup">
+                    <img src="images/PiGLET.png" alt="" />
+        
+                    <div class="modal-popup__desc">
+                        <!--h5>Panoptic Narrative Grounding</h5-->
+                        <p style="text-align: justify">This paper proposes Panoptic Narrative Grounding, a spatially fine and general formulation of the natural language visual grounding problem. We establish an experimental framework for the study of this new task, including new ground truth and metrics. We propose PiGLET a novel multi-modal Transformer architecture to tackle the Panoptic Narrative Grounding task, and to serve as a stepping stone for future work. We exploit the intrinsic semantic richness in an image by including panoptic categories, and we approach visual grounding at a fine-grained level using segmentations. In terms of ground truth, we propose an algorithm to automatically transfer Localized Narratives annotations to specific regions in the panoptic segmentations of the MS COCO dataset. PiGLET achieves a performance of 63.2 absolute Average Recall points. By leveraging the rich language information on the Panoptic Narrative Grounding benchmark on MS COCO, PiGLET obtains an improvement of 0.4 Panoptic Quality points over its base method on the panoptic segmentation task. Finally, we demonstrate the generalizability of our method to other natural language visual grounding problems such as Referring Expression Segmentation. PiGLET is competitive with previous state-of-the-art in RefCOCO, RefCOCO+, and RefCOCOg.</p>
+                        <ul class="modal-popup__cat">
+                            <li>Article</li>
+                            <li>TPAMI 2023</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://bcv-uniandes.github.io/panoptic-narrative-grounding/" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Project Page</a>
+                </div>
+            </div> <!-- end modal -->
+
+            
+        </div>
+
+        <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-03" class="folio-item__thumb">
+                    <img src="images/MATIS_crop.png" 
+                         srcset="images/MATIS_crop.png 1x, 
+                                 images/MATIS_crop.png 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column2">
+                <p style="text-align: justify;">
+                    <strong>MATIS: Masked-Attention Transformers for Surgical Instrument Segmentation.</strong> <u>Nicolás Ayobi</u>, Alejandra Pérez-Rondón, Santiago Rodríguez, Pablo Arbeláez. <em>Oral presentation at the IEEE International Symposium on Biomedical Imaging (ISBI) 2023</em>.<br>
+                    
+                    <a href="https://arxiv.org/abs/2303.09514">[Paper]</a>
+                </p> 
+            </div> <!-- end folio-item -->
+
+            <div id="modal-03" hidden>
+                <div class="modal-popup">
+                    <img src="images/MATIS_crop.png" alt="" />
+                    
+                    <div class="modal-popup__desc">
+                        <!--h5>Towards Holistic Surgical Scene Understanding</h5-->
+                        <p style="text-align: justify">
+                            We propose Masked-Attention Transformers for Surgical Instrument Segmentation (MATIS), a two-stage, fully transformer-based method that leverages modern pixel-wise attention mechanisms for instrument segmentation. MATIS exploits the instance-level nature of the task by employing a masked attention module that generates and classifies a set of fine instrument region proposals. Our method incorporates long-term video-level information through video transformers to improve temporal consistency and enhance mask classification. We validate our approach in the two standard public benchmarks, Endovis 2017 and Endovis 2018. Our experiments demonstrate that MATIS’ per-frame baseline outperforms previous state-of-the-art methods and that including our temporal consistency module boosts our model’s performance further.</p>
+                            <ul class="modal-popup__cat">
+                                <li>Oral</li>
+                                <li>ISBI 2023</li>
+                            </ul>
+                        </div>
+            
+                        <a href="https://arxiv.org/abs/2303.09514" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Paper Link</a>
+                </div>
+            </div> <!-- end modal -->
+        </div>
+
+        <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-04" class="folio-item__thumb">
+                    <img src="images/TAPIR.jpg" 
+                         srcset="images/TAPIR.jpg 1x, 
+                                 images/TAPIR.jpg 2x" alt="">
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column2">
+                <p style="text-align: justify;">
+                    <strong>Towards Holistic Surgical Scene Understanding.</strong> Natalia Valderrama, Paola Ruíz, Isabela Hernández, <u>Nicolás Ayobi</u>, Mathilde Verlyk, Jessica Santander, Juan Caicedo, Nicolás Fernández, Pablo Arbeláez. <em>Oral Presentation at the International Conference on Medican Image Computing and Computer Assisted Interventions (MICCAI) 2022. Nominated to best paper award.</em><br>
+                    
+                    <a href="https://cinfonia.uniandes.edu.co/publications/towards-holistic-surgical-scene-understanding/">[Project Page]</a>
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_42">[Paper]</a>
+                    <a href="https://github.com/BCV-Uniandes/TAPIR">[Code]</a>
+                    <a href="http://157.253.243.19/PSI-AVA/">[Data]</a>
+                </p>
+                
+            </div> <!-- end folio-item -->
+
+            <div id="modal-04" hidden>
+                <div class="modal-popup">
+                    <img src="images/TAPIR.jpg" alt="" />
+                    
+                    <div class="modal-popup__desc">
+                        <!--h5>Towards Holistic Surgical Scene Understanding</h5-->
+                        <p style="text-align: justify">
+                            Most benchmarks for studying surgical interventions focus on a specific challenge instead of leveraging the intrinsic complementarity among different tasks. In this work, we present a new experimental framework towards holistic surgical scene understanding. First, we introduce the Phase, Step, Instrument, and Atomic Visual Action recognition (PSIAVA) Dataset. PSI-AVA includes annotations for both long-term (Phase and Step recognition) and short-term reasoning (Instrument detection and novel Atomic Action recognition) in robot-assisted radical prostatectomy videos. Second, we present Transformers for Action, Phase, Instrument, and steps Recognition (TAPIR) as a strong baseline for surgical scene understanding. TAPIR leverages our dataset’s multi-level annotations as it benefits from the learned representation on the instrument detection task to improve its classification capacity. Our experimental results in both PSI-AVA and other publicly available databases demonstrate the adequacy of our framework to spur future research on holistic surgical scene understanding.
+                        </p>
+                        <ul class="modal-popup__cat">
+                            <li>Oral</li>
+                            <li>MICCAI 2022</li>
+                        </ul>
+                        </div>
+            
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_42" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Paper Link</a>
+                </div>
+            </div> <!-- end modal -->
+        </div>
+
+        <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-05" class="folio-item__thumb">
                     <img src="images/PNG.gif" 
                          srcset="images/PNG.gif 1x, 
                                  images/PNG.gif 2x" 
@@ -207,7 +377,7 @@
 
             <!-- Modal Templates Popup
             =========================================================== -->
-            <div id="modal-01" hidden>
+            <div id="modal-05" hidden>
                 <div class="modal-popup">
                     <img src="images/PNG.gif" alt="" />
         
@@ -244,86 +414,7 @@
         <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-03" class="folio-item__thumb">
-                    <img src="images/MATIS_crop.png" 
-                         srcset="images/MATIS_crop.png 1x, 
-                                 images/MATIS_crop.png 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column2">
-                <p style="text-align: justify;">
-                    <strong>MATIS: Masked-Attention Transformers for Surgical Instrument Segmentation.</strong> <u>Nicolás Ayobi</u>, Alejandra Pérez-Rondón, Santiago Rodríguez, Pablo Arbeláez. <em>Oral presentation in International Symposium on Biomedical Imaging (ISBI) 2023</em>.<br>
-                    
-                    <a href="https://arxiv.org/abs/2303.09514">[Paper]</a>
-                </p> 
-            </div> <!-- end folio-item -->
-
-            <div id="modal-03" hidden>
-                <div class="modal-popup">
-                    <img src="images/MATIS_crop.png" alt="" />
-                    
-                    <div class="modal-popup__desc">
-                        <!--h5>Towards Holistic Surgical Scene Understanding</h5-->
-                        <p style="text-align: justify">
-                            We propose Masked-Attention Transformers for Surgical Instrument Segmentation (MATIS), a two-stage, fully transformer-based method that leverages modern pixel-wise attention mechanisms for instrument segmentation. MATIS exploits the instance-level nature of the task by employing a masked attention module that generates and classifies a set of fine instrument region proposals. Our method incorporates long-term video-level information through video transformers to improve temporal consistency and enhance mask classification. We validate our approach in the two standard public benchmarks, Endovis 2017 and Endovis 2018. Our experiments demonstrate that MATIS’ per-frame baseline outperforms previous state-of-the-art methods and that including our temporal consistency module boosts our model’s performance further.</p>
-                            <ul class="modal-popup__cat">
-                                <li>Oral</li>
-                                <li>ISBI 2023</li>
-                            </ul>
-                        </div>
-            
-                        <a href="https://arxiv.org/abs/2303.09514" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Paper Link</a>
-                </div>
-            </div> <!-- end modal -->
-        </div>
-
-        <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
-
-            <div class="column folio-item">
-                <a href="#modal-02" class="folio-item__thumb">
-                    <img src="images/TAPIR.jpg" 
-                         srcset="images/TAPIR.jpg 1x, 
-                                 images/TAPIR.jpg 2x" alt="">
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column2">
-                <p style="text-align: justify;">
-                    <strong>Towards Holistic Surgical Scene Understanding.</strong> Natalia Valderrama, Paola Ruíz, Isabela Hernández, <u>Nicolás Ayobi</u>, Mathilde Verlyk, Jessica Santander, Juan Caicedo, Nicolás Fernández, Pablo Arbeláez. <em>Oral Presentation at the International Conference on Medican Image Computing and Computer Assisted Interventions (MICCAI) 2022. Nominated to best paper award.</em><br>
-                    
-                    <a href="https://cinfonia.uniandes.edu.co/publications/towards-holistic-surgical-scene-understanding/">[Project Page]</a>
-                    <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_42">[Paper]</a>
-                    <a href="https://github.com/BCV-Uniandes/TAPIR">[Code]</a>
-                    <a href="http://157.253.243.19/PSI-AVA/">[Data]</a>
-                </p>
-                
-            </div> <!-- end folio-item -->
-
-            <div id="modal-02" hidden>
-                <div class="modal-popup">
-                    <img src="images/TAPIR.jpg" alt="" />
-                    
-                    <div class="modal-popup__desc">
-                        <!--h5>Towards Holistic Surgical Scene Understanding</h5-->
-                        <p style="text-align: justify">
-                            Most benchmarks for studying surgical interventions focus on a specific challenge instead of leveraging the intrinsic complementarity among different tasks. In this work, we present a new experimental framework towards holistic surgical scene understanding. First, we introduce the Phase, Step, Instrument, and Atomic Visual Action recognition (PSIAVA) Dataset. PSI-AVA includes annotations for both long-term (Phase and Step recognition) and short-term reasoning (Instrument detection and novel Atomic Action recognition) in robot-assisted radical prostatectomy videos. Second, we present Transformers for Action, Phase, Instrument, and steps Recognition (TAPIR) as a strong baseline for surgical scene understanding. TAPIR leverages our dataset’s multi-level annotations as it benefits from the learned representation on the instrument detection task to improve its classification capacity. Our experimental results in both PSI-AVA and other publicly available databases demonstrate the adequacy of our framework to spur future research on holistic surgical scene understanding.
-                        </p>
-                        <ul class="modal-popup__cat">
-                            <li>Oral</li>
-                            <li>MICCAI 2022</li>
-                        </ul>
-                        </div>
-            
-                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-16449-1_42" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Paper Link</a>
-                </div>
-            </div> <!-- end modal -->
-        </div>
-
-        <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
-
-            <div class="column folio-item">
-                <a href="#modal-03" class="folio-item__thumb">
+                <a href="#modal-06" class="folio-item__thumb">
                     <img src="images/Javier.png" 
                          srcset="images/Javier.png 1x, 
                                  images/Javier.png 2x" alt="">
@@ -338,7 +429,7 @@
                 </p> 
             </div> <!-- end folio-item -->
 
-            <div id="modal-03" hidden>
+            <div id="modal-06" hidden>
                 <div class="modal-popup">
                     <img src="images/Javier.png" alt="" />
                     
