@@ -79,12 +79,13 @@
 		
 					<!--/div-->
 
-                    <h1>Nicolás Ayobi Mendoza</h1>
+                    <h1>Nicolás Ayobi</h1>
 
                     <h3 style="text-align: center">
+                        <span>AI Engineer</span><br>
                         <span>Research Assistant in Computer Vision</span> at CinfonIA <br>
-                        <span>M.Sc. student in Biomedical Engineering</span> at University of Los Andes <br>
-                        <span>Biomedical Engineer</span><!-- with a double minor in <span>Computational Mathematics</span> and in <span>Bioinformatics</span>-->
+                        <span>M.Sc. in Biomedical Engineering</span><br>
+                        <span>B.Sc. in Biomedical Engineer</span><!-- with a double minor in <span>Computational Mathematics</span> and in <span>Bioinformatics</span>-->
                     </h3>
 
                     <div class="s-hero__content-social">
@@ -129,15 +130,13 @@
             <div class="column large-9 tab-12 s-about__content">
                 <h3>About Me</h3>
                 <p style="text-align: justify;">
-                    I am a master's student in biomedical engineering at the <a href="https://uniandes.edu.co/" target="_blank" rel="noopener noreferrer">University of los Andes</a> in Bogota, Colombia. I received my Bachelor's degree in biomédical engineering with a double minor in Bioinformatics and Computational Mathematics. Additionally, I work as a graduate research assistant in computer vision at my university's <a href="https://cinfonia.uniandes.edu.co/" target="_blank" rel="noopener noreferrer">CinfonIA research center</a> under <a href="https://scholar.google.com/citations?user=k0nZO90AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Pablo Arbeláez's</a> supervision. I've worked on several research projects focused on deep learning and computer vision for medical and natural images. My main research interests are image-guided surgical robot intelligence, video analysis, biomedical image processing, and vision & language. 
-                <!-- I am a first-year biomedical engineering master's student. I just finished my Bachelor's studies in biomédical engineering as well, with a double minor in Bioinformatics and Computational Mathematics. Additionally, I work as a graduate research assistant at the <a href="https://cinfonia.uniandes.edu.co/" target="_blank" rel="noopener noreferrer">CinfonIA research center</a> of the University of los Andes in several projects focused on computer vision. My goal is to achieve a Ph.D. in the future to develop my research on machine vision applications in medicine fully. I aim to someday work in an extensive research center of applied artificial intelligence for biomedical image analysis in the far future. -->
-				<!--I am a senior year biomedical engineering student at the Universidad de los Andes
-				in Bogotá, Colombia. I've already finished a minor in Bioinformatics and I'm currently finishing 
-                a second minor in Computational Mathematics. My main interests are medical imaging, computer vision, deep 
-				learning and data science. I'm currently working as an undergraduate research assistant 
-				in the <a href="https://cinfonia.uniandes.edu.co/">CinfonIA research center</a> led by 
-				professor <a href="https://scholar.google.com.co/citations?user=k0nZO90AAAAJ&hl=en">Pablo Arbeláez</a>. 
-				My goal is to use the power of artificial inteligence to make future medicine easier, faster and more effective.-->
+                    I work as a research assistant in computer vision at the <a href="https://cinfonia.uniandes.edu.co/" target="_blank" rel="noopener noreferrer">CinfonIA research center</a> 
+                    of the <a href="https://uniandes.edu.co/" target="_blank" rel="noopener noreferrer">University of los Andes</a> in Bogota, Colombia under professor's 
+                    <a href="https://scholar.google.com/citations?user=k0nZO90AAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Pablo Arbeláez's</a> supervision.
+                    I finished my Master's degree in biomedical engineering focused on medical applications of AI in 2024, 
+                    and I received my Bachelor's degree in biomedical engineering with a double minor in Bioinformatics and Computational Mathematics in 2022. 
+                    During the last four years, I've worked on several research projects focused on deep learning and computer vision for medical and natural images. 
+                    My main research interests are image-guided surgical robot intelligence, video analysis, biomedical image processing, image segmentation, and vision & language. 
                 </p>
 
                 <hr>
@@ -192,10 +191,67 @@
         <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-01" class="folio-item__thumb">
-                    <img src="images/Bechmark_figure.png" 
-                         srcset="images/Bechmark_figure.png 1x, 
-                                 images/Bechmark_figure.png 2x" 
+                <a href="#modal-07" class="folio-item__thumb">
+                    <img src="images/GraSP.png" 
+                         srcset="images/GraSP.png 1x, 
+                                 images/GraSP.png 2x" 
+                         alt=""
+                         style="padding-top: 3%; padding-bottom: 3%;"
+                                 >
+                </a>
+            </div> <!-- end folio-item -->
+
+            <div class="column2">
+                <p> 
+                    <strong>Pixel-Wise Recognition for Holistic Surgical Scene Understanding.</strong> <br>
+                    <u>Nicolás Ayobi*</u>, Santiago Rodríguez, Alejandra Pérez, Isabela Hernández, Nicolás Aparicio, Eugenie Dessevres, Sebastián Peña, Jessica Santander, Juan Ignacio Caicedo, Nicolás Fernández, Pablo Arbeláez<br>
+                    <em>In revision for Medical Image Analysis</em><br>
+                    
+                    <a href="https://arxiv.org/abs/2401.11174" target="_blank" rel="noopener noreferrer">[PDF]</a>
+                    <a href="https://github.com/BCV-Uniandes/GraSP" target="_blank" rel="noopener noreferrer">[Code]</a>
+                    <a href="http://157.253.243.19/GraSP" target="_blank" rel="noopener noreferrer">[Data]</a>
+                </p>
+            </div> <!-- end folio-item -->
+
+
+            <!-- Modal Templates Popup
+            =========================================================== -->
+            <div id="modal-07" hidden>
+                <div class="modal-popup">
+                    <img src="images/GraSP.png" alt="" />
+        
+                    <div class="modal-popup__desc">
+                        <!--h5>Panoptic Narrative Grounding</h5-->
+                        <p style="text-align: justify">This paper presents the Holistic and Multi-Granular Surgical Scene Understanding of Prostatectomies (GraSP) dataset, a curated
+                            benchmark that models surgical scene understanding as a hierarchy of complementary tasks with varying levels of granularity.
+                            Our approach enables a multi-level comprehension of surgical activities, encompassing long-term tasks such as surgical phases
+                            and steps recognition and short-term tasks including surgical instrument segmentation and atomic visual actions detection. To
+                            exploit our proposed benchmark, we introduce the Transformers for Actions, Phases, Steps, and Instrument Segmentation (TAPIS)
+                            model, a general architecture that combines a global video feature extractor with localized region proposals from an instrument
+                            segmentation model to tackle the multi-granularity of our benchmark. Through extensive experimentation, we demonstrate the
+                            impact of including segmentation annotations in short-term recognition tasks, highlight the varying granularity requirements of
+                            each task, and establish TAPIS’s superiority over previously proposed baselines and conventional CNN-based models. Additionally,
+                            we validate the robustness of our method across multiple public benchmarks, confirming the reliability and applicability of our
+                            dataset. This work represents a significant step forward in Endoscopic Vision, offering a novel and comprehensive framework for
+                            future research towards a holistic understanding of surgical procedures.</p>
+                        <ul class="modal-popup__cat">
+                            <li>Preprint</li>
+                            <li>ArXiv</li>
+                        </ul>
+                    </div>
+        
+                    <a href="https://arxiv.org/abs/2401.11174" target="_blank" rel="noopener noreferrer" class="modal-popup__details">Paper</a>
+                </div>
+            </div> <!-- end modal -->
+        </div>
+
+        <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
+
+            <div class="column folio-item">
+                <a href="#modal-06" class="folio-item__thumb">
+                    <img src="images/STRIDE.png" 
+                         srcset="images/STRIDE.png 1x, 
+                                 images/STRIDE.png 2x" 
                          alt=""
                          style="padding-top: 3%; padding-bottom: 3%;"
                                  >
@@ -209,17 +265,18 @@
                     <em>Oral presentation at the second ROAD++ workshop hosted at the International Conference of Computer Vision (ICCVW) 2023. <u>Awarded Best Student Paper.</u></em><br>
                     
                     <a href="https://arxiv.org/abs/2308.13183" target="_blank" rel="noopener noreferrer">[PDF]</a>
+                    <a href="https://ieeexplore.ieee.org/document/10350902" target="_blank" rel="noopener noreferrer">[Paper]</a>
                     <a href="https://github.com/BCV-Uniandes/STRIDE" target="_blank" rel="noopener noreferrer">[Code]</a>
-                    <a href="https://github.com/BCV-Uniandes/STRIDE" target="_blank" rel="noopener noreferrer">[Data]</a>
+                    <a href="http://157.253.243.19/STRIDE/" target="_blank" rel="noopener noreferrer">[Data]</a>
                 </p>
             </div> <!-- end folio-item -->
 
 
             <!-- Modal Templates Popup
             =========================================================== -->
-            <div id="modal-01" hidden>
+            <div id="modal-06" hidden>
                 <div class="modal-popup">
-                    <img src="images/Bechmark_figure.png" alt="" />
+                    <img src="images/STRIDE.png" alt="" />
         
                     <div class="modal-popup__desc">
                         <!--h5>Panoptic Narrative Grounding</h5-->
@@ -238,7 +295,7 @@
         <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-02" class="folio-item__thumb">
+                <a href="#modal-05" class="folio-item__thumb">
                     <img src="images/PiGLET.png" 
                          srcset="images/PiGLET.png 1x, 
                                  images/PiGLET.png 2x" 
@@ -264,7 +321,7 @@
 
             <!-- Modal Templates Popup
             =========================================================== -->
-            <div id="modal-02" hidden>
+            <div id="modal-05" hidden>
                 <div class="modal-popup">
                     <img src="images/PiGLET.png" alt="" />
         
@@ -287,7 +344,7 @@
         <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-03" class="folio-item__thumb">
+                <a href="#modal-04" class="folio-item__thumb">
                     <img src="images/MATIS_crop.png" 
                          srcset="images/MATIS_crop.png 1x, 
                                  images/MATIS_crop.png 2x" alt="">
@@ -308,7 +365,7 @@
                 </p> 
             </div> <!-- end folio-item -->
 
-            <div id="modal-03" hidden>
+            <div id="modal-04" hidden>
                 <div class="modal-popup">
                     <img src="images/MATIS_crop.png" alt="" />
                     
@@ -329,7 +386,7 @@
         <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-04" class="folio-item__thumb">
+                <a href="#modal-03" class="folio-item__thumb">
                     <img src="images/TAPIR.jpg" 
                          srcset="images/TAPIR.jpg 1x, 
                                  images/TAPIR.jpg 2x" alt="">
@@ -351,7 +408,7 @@
                 
             </div> <!-- end folio-item -->
 
-            <div id="modal-04" hidden>
+            <div id="modal-03" hidden>
                 <div class="modal-popup">
                     <img src="images/TAPIR.jpg" alt="" />
                     
@@ -374,7 +431,7 @@
         <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-05" class="folio-item__thumb">
+                <a href="#modal-02" class="folio-item__thumb">
                     <img src="images/PNG.gif" 
                          srcset="images/PNG.gif 1x, 
                                  images/PNG.gif 2x" 
@@ -401,7 +458,7 @@
 
             <!-- Modal Templates Popup
             =========================================================== -->
-            <div id="modal-05" hidden>
+            <div id="modal-02" hidden>
                 <div class="modal-popup">
                     <img src="images/PNG.gif" alt="" />
         
@@ -438,7 +495,7 @@
         <div style="margin-bottom: -45pt;" class="row block-large-1-4 block-medium-1-1 block-tab-1-1 block-500-stack folio-list">
 
             <div class="column folio-item">
-                <a href="#modal-06" class="folio-item__thumb">
+                <a href="#modal-01" class="folio-item__thumb">
                     <img src="images/Javier.png" 
                          srcset="images/Javier.png 1x, 
                                  images/Javier.png 2x" alt="">
@@ -455,7 +512,7 @@
                 </p> 
             </div> <!-- end folio-item -->
 
-            <div id="modal-06" hidden>
+            <div id="modal-01" hidden>
                 <div class="modal-popup">
                     <img src="images/Javier.png" alt="" />
                     
